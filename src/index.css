@@ -1,13 +1,130 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --color-bg: #912F56;
+    --color-bg-variant: #FFE6E0;
+    --color-primary: #fcccc0;
+    --color-primary-variant: #74c5ff;
+    --color-white: #fff;
+    --color-light: pink;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+    --transition: all 400ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #912F56;
+    line-height: 1.7;
+}
+
+
+/* ======== GENERAL STYLES ==========*/
+
+.container {
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+section {
+    margin-top: 8rem;
+    height: 100vh;
+}
+
+section>h2,
+section>h5 {
+    text-align: center;
+    color: #000000
+}
+
+section>h2 {
+    color: #912F56;
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: #fcccc0;
+    transition: var(--transition)
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-bg-variant);
+    padding: 0.7rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 3px solid var(--color-bg-variant);
+    transition: var(--transition);
+}
+
+.btn-hover {
+    background-color: var(--color-bg-variant);
+    color: var(--color-bg);
+}
+
+.btn-primary {
+    background: var(--color-bg-variant);
+    color: var(--color-primary);
+}
+
+img {
+    display: block;
+}
+
+
+/*===========Media Queries (Medium Devices) ==========*/
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+    section {
+        margin-top: 6rem;
+    }
+}
+
+
+/*===========Media Queries (Medium Devices) ==========*/
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sd);
+    }
+    section {
+        margin-top: 2rem;
+    }
 }

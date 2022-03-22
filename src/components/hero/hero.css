@@ -1,0 +1,9 @@
+.hero__content {
+    display: flex;
+    justify-content: center;
+    gap: 0
+}
+
+.logo img {
+    width: 60%;
+}

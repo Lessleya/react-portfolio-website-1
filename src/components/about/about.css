@@ -1,0 +1,15 @@
+.about_me {
+    width: 40%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about-me-image img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    width: 30%;
+}

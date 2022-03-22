@@ -1,0 +1,106 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px 70px;
+    background-color: #A2C2FF;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    display: flex;
+    justify-content: flex-end;
+    width: 25px;
+    height: 3px;
+    background-color: #D8E2DC;
+    margin: 5px;
+}
+
+
+/*===LOGO===*/
+
+.nav .logo {
+    width: 30%;
+    padding: 0;
+}
+
+
+/*==== Socials =====*/
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-bg-variant);
+    margin-right: 100px;
+}
+
+
+/*==== ME =====*/
+
+.me {
+    background: linear-gradient(rgb(182, 167, 177), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+    margin-left: 100px;
+}
+
+
+/*===========Media Queries (Medium Devices) ==========*/
+
+
+/* @media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+
+/*===========Media Queries (Medium Devices) ==========*/
+
+
+/* @media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}  */
