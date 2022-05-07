@@ -1,0 +1,58 @@
+.service__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.service{
+    background: var(--color-primary);
+    border-radius:  0 0 10px 10px;
+    height: fit-content;
+    transition: var(--transition);
+   
+
+}
+
+.service:hover{
+    background: transparent;
+    border-color: white;
+    color: default;
+}
+
+.service_head{
+    background: white;
+    padding: 10px;
+    border-radius:  0 0 10px 10px;
+    
+
+}
+
+.service_head h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+.service_list{
+    padding: 20px;
+}
+
+.service_list li{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:1024px){
+    .servie__container{
+        grid-template-columns: 1fr 1fr ;
+        gap: 5px;
+
+    }
+
+    .service{
+        height: auto;
+
+    }
+    
+}

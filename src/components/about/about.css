@@ -1,3 +1,5 @@
+
+
 .about_me {
     width: 40%;
     aspect-ratio: 1/1;
@@ -12,4 +14,41 @@
     overflow: hidden;
     transform: rotate(10deg);
     width: 30%;
+    transition: var(--transition);
+}
+
+.about__me-image:hover {
+    transform: rotate(0);
+}
+
+.about__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card {
+    background: var(--color-primary);
+    border: 1pxsolid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+
+.about__container{
+    grid-template-columns: 1fr;
+    gap: 0;
+}
+
+.about_me{
+    width: 50%;
+    margin: 15px auto 30px;
+
+}
+
+.about__content p{
+    margin: 15px auto 30px;
+}
 }
