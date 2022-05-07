@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import LOGO from "../../assets/logo.png";
+import LOGO from "../../assets/le.png";
 import RESUME from "../../assets/resume.pdf";
 import HeaderSocials from "./HeaderSocials";
 
@@ -11,16 +11,6 @@ const Header = () => {
         <img className="logo" src={LOGO} alt="logo" />
         <ul>
           <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Work</a>
-          </li>
-
-          <li>
-            <a href="#">Skills</a>
-          </li>
-          <li>
             <a href={RESUME} download className="btn  ">
               Resume
             </a>
@@ -30,11 +20,6 @@ const Header = () => {
               Let's Talk
             </a>
           </li>
-          <div className="burger">
-            <div className="line1"></div>
-            <div className="line2"></div>
-            <div className="line3"></div>
-          </div>
         </ul>
       </nav>
     </header>

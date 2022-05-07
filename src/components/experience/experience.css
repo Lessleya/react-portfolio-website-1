@@ -1,0 +1,55 @@
+.containerexperience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 30px;
+}
+
+
+.containerexperience__container > div{
+ background: rgb(118, 78, 85);
+ padding: 30px;
+ border-radius: 10px;
+ border: 3px solid transparent;
+ transition: var(--transition);
+ color: antiquewhite;
+}
+
+.containerexperience__container > div:hover{
+    background: transparent;
+    border: 3px solid rgb(118, 78, 85);
+    color: rgb(118, 78, 85);
+   }
+
+.containerexperience__container > div h3{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+@media screen and (max-width: 1024px){
+
+    .containerexperience__container{
+        grid-template-columns:  1fr;
+
+    }
+
+    .containerexperience__container > div{
+        width: 80%;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .experience__content{
+        padding: 10px;
+    }
+
+}
+    
+
+
+
+
+
+
+

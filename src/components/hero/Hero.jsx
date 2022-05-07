@@ -10,8 +10,8 @@ const hero = () => {
       
       </div>
       <div class="wrapper">
-      <h1>Hola! My name is <span>Lesliee Cruz</span></h1>
-        <div className="static-txt">I'm a</div>
+      <h1>  Hola! My name is Lesliee Cruz I'm a</h1>
+        <div className="static-txt"></div>
           <ul className="dynamic-txts">
             <li><span>PRODUCT MANAGER</span></li>
             <li><span>UX/UI DESIGNER</span></li>
@@ -19,6 +19,7 @@ const hero = () => {
             <li><span>SOFTWARE ENGINEER</span></li>
           </ul>
         </div>
+        <p></p>
         
     </div>
   )

@@ -1,3 +1,38 @@
+# Overview
+
+This is a proffesional portfolio developed with React. This portfolio contains a description of each one of my projects and a link to github.
+
+This class is a great opportunity to build a proffesional portfolio. I decided to creat this website to showcase my future projects
+
+[Software Demo Video](http://youtube.link.goes.here)
+
+# Web Pages
+
+The website contains a landing page with 4 main sections: The hero page, my experience, my services , my portfolio, and contact section.
+
+# Development Environment
+
+I used MERN:
+
+Mongo DB
+Express 
+React
+Node JS
+
+# Useful Websites
+
+{Make a list of websites that you found helpful in this project}
+* [React](https://reactjs.org/)
+* [Youtube Tutorial](https://www.youtube.com/watch?v=G-Cr00UYokU&list=RDCMUCL8l_VxCAN0jOpaLaRAm8sQ&index=1)
+
+# Future Work
+
+* Connect my Github portfolio with a GITHUB API
+* Add contact information
+* Add guest book
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

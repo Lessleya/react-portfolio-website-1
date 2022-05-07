@@ -1,0 +1,19 @@
+.container.testimonials__container{
+    width: 70%;
+}
+
+.client__avatar {
+    width: 5px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+   
+}
+
+.testimonal{
+    background: rgb(198, 112, 126);
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    user-select: none;
+}
+
