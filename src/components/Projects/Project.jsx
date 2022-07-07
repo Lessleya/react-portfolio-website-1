@@ -15,9 +15,7 @@ const Project = () =>{
             
         <div className="container-project">
           <button onClick={() => {navigate("/")}} className='btn btn-primary'>View More</button>
-
-                
-                <img src={PROJECT} alt="My project" /></div>
+        <img src={PROJECT} alt="My project" /></div>
             
             <Footer />
         </>
