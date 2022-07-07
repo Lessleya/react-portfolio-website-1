@@ -14,8 +14,15 @@
 
 .wrapper h1{
     color: black;
-    font-size: 70px;
-    
+    font-size: 40px;
+
+}
+
+.wrapper p{
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 30px;
+    color: white;
 }
 
 /**Typewritter**/
@@ -30,7 +37,7 @@
 }
 
 .wrapper .dynamic-txts {
-    margin-left: 15px;
+   
     height: 90px;
     line-height: 90px;
     overflow: hidden;
