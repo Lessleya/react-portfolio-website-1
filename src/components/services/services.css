@@ -5,6 +5,15 @@
     padding: 20px;
 }
 
+#services{
+    text-align: center;
+    margin: auto;
+}
+
+#services h2{
+    color: #912F56;
+    margin-bottom: 3rem;
+}
 .service{
     background: var(--color-primary);
     border-radius:  0 0 10px 10px;

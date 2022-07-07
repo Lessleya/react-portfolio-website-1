@@ -18,6 +18,7 @@ const hero = () => {
             <li><span>WEB DEVELOPER</span></li>
             <li><span>SOFTWARE ENGINEER</span></li>
           </ul>
+          <p>with a passion for creating engaging, entertaining user experiences. <br></br> Currently working at Brigham Young University - Idaho as a Software Product Manager. 👩🏻‍💻</p>
         </div>
         <p></p>
         

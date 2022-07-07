@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
-import App from "./App";
 import "./index.css";
+import PortfolioRouter from "./Router";
 
-ReactDOM.render( < App / > , document.querySelector("#root"));
+ReactDOM.render( <PortfolioRouter /> , document.querySelector("#root"));
 
 

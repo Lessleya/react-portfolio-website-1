@@ -8,15 +8,16 @@ import {AiFillLinkedin} from 'react-icons/ai'
 
 const Footer = () => {
   return ( <footer>
-   <div className="footer__socials">
+  
+
+   <div className="footer__copyright">
+     <small>&copy; Lesliee Cruz. All rights reserved.</small> 
+     <div className="footer__socials">
      <a href="https://facebook.com"><FaFacebookF/></a>
      <a href="https://instagram.com"><FiInstagram/></a>
      <a href="https://github.com"><AiFillGithub/></a>
      <a href="https://linkedin.com"><AiFillLinkedin/></a>
-   </div>
-
-   <div className="footer__copyright">
-     <small>&copy; Lesliee Cruz. All rights reserved.</small>
+     </div>
    </div>
 
   </footer>);
